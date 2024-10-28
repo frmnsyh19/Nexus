@@ -11,7 +11,7 @@ import NavbarPc from '../components/NavbarPc'
 const page = () => {
   return (
     <>
-      <div className="w-full flex flex-col bg-slate-100 gap-3">
+      <div className="w-full flex flex-col text-neutral bg-slate-100 gap-3">
         <NavbarMobile />
         <NavbarPc />
         <NewsSections1 />
