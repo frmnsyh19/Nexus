@@ -15,7 +15,7 @@ export const PopulerPosts = () => {
           </div>
         </div>
         <div className=' w-full flex justify-center items-center'>
-          <Image width={100} className=' w-full h-28' height={50} src='/posts/posts3.jpg' alt='' />
+          <Image width={100} className=' w-full h-36 lg:h-28' height={50} src='/image/posts3.jpg' alt='' />
         </div>
       </div>
     </>

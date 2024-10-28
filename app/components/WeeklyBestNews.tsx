@@ -12,7 +12,7 @@ export const WeeklyBestNews = () => {
           <Benner2 />
         </div>
         <div className=' w-full p-2 flex justify-center items-center gap-2 flex-wrap'>
-          <div className="w-full lg:w-[45%] border border-red-600 flex flex-col gap-2 p-1" id=''>
+          <div className="w-full lg:w-[45%]  flex flex-col gap-2 p-1" id=''>
             <Image width={100} className=' w-full h-48' height={50} src='/image/market.jpeg' alt='market' />
             <span className=' text base font-bold text-indigo-900 capitalize'>How to protect your appwith a model based on JSONDiff</span>
             <div className=' w-full flex flex-row items-center gap-2'>
@@ -31,7 +31,7 @@ export const WeeklyBestNews = () => {
               Puddles Of Chocolate Y First Favorite
             </span>
           </div>
-          <div className="w-full lg:w-[45%] border border-red-600 flex flex-col gap-2 p-1">
+          <div className="w-full lg:w-[45%]  flex flex-col gap-2 p-1">
             <Image width={100} className=' w-full h-48' height={50} src='/image/post5.jpeg' alt='' />
             <span className=' text base font-bold text-indigo-900 capitalize'>How to protect your appwith a model based on JSONDiff</span>
             <div className=' w-full flex flex-row items-center gap-2'>
@@ -50,7 +50,7 @@ export const WeeklyBestNews = () => {
               Puddles Of Chocolate Y First Favorite
             </span>
           </div>
-          <div className="w-full lg:w-[45%] border border-red-600 flex flex-col gap-2 p-1">
+          <div className="w-full lg:w-[45%]  flex flex-col gap-2 p-1">
             <Image width={100} className=' w-full h-48' height={50} src='/image/posts1.jpg' alt='' />
             <span className=' text base font-bold text-indigo-900 capitalize'>How to protect your appwith a model based on JSONDiff</span>
             <div className=' w-full flex flex-row items-center gap-2'>
@@ -69,7 +69,7 @@ export const WeeklyBestNews = () => {
               Puddles Of Chocolate Y First Favorite
             </span>
           </div>
-          <div className="w-full lg:w-[45%] border border-red-600 flex flex-col gap-2 p-1">
+          <div className="w-full lg:w-[45%]  flex flex-col gap-2 p-1">
             <Image width={100} className=' w-full h-48' height={50} src='/image/posts6.jpg' alt='' />
             <span className=' text base font-bold text-indigo-900 capitalize'>How to protect your appwith a model based on JSONDiff</span>
             <div className=' w-full flex flex-row items-center gap-2'>
