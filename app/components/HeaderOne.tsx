@@ -34,7 +34,7 @@ export const HeaderOne = () => {
             </div>
           </div>
           {/* 3 */}
-          <div className=' w-full lg:w-[30rem] border border-red-700 h-56 lg:h-60' id='bgheaderone-3'>
+          <div className=' w-full lg:w-[30rem] h-56 lg:h-60' id='bgheaderone-3'>
             <div className=' w-full h-full flex flex-col justify-end items-center p-2'>
               <div className=' w-80 gap-4 flex flex-col justify-center items-center'>
                 <div className=' hover:bg-orange-600 btn btn-sm border-none font-light bg-orange-600 text-white uppercase'>
@@ -63,7 +63,7 @@ export const HeaderOne = () => {
         </div>
         <div className='w-full flex justify-center items-center lg:mt-4'>
           <div className=" w-full lg:w-[75%] lg:flex-row flex-col flex justify-evenly gap-5 p-2">
-            <div className=' w-full lg:w-[40rem] flex flex-col gap-4 justify-start p-3'>
+            <div className=' w-full lg:w-[45rem] flex flex-col gap-4 justify-start p-3'>
               <div className=' w-full flex flex-col justify-start gap-2'>
                 <p className=' text-lg text-indigo-900 capitalize font-bold'>
                   Recent Posts
@@ -119,7 +119,7 @@ export const HeaderOne = () => {
                   </div>
                 </div>
                 <div className=' w-full flex lg:flex-row flex-col  lg:justify-center items-center gap-2'>
-                  <div className=" w-full lg:w-[50%] border border-blue-600 h-48" id='posts4'>
+                  <div className=" w-full lg:w-[50%]  h-48" id='posts4'>
                     <div className=' w-full h-full flex flex-col justify-end items-start'>
                       <div className="w-full p-2 flex flex-col gap-2 justify-start items-start">
                         <div className='p-2 text-sm opacity-70 rounded-lg flex text-center text-white bg-gray-500'>
@@ -140,7 +140,7 @@ export const HeaderOne = () => {
                       </div>
                     </div>
                   </div>
-                  <div className=" w-full lg:w-[50%] border border-blue-600 h-48" id='posts5'>
+                  <div className=" w-full lg:w-[50%]  h-48" id='posts5'>
                     <div className=' w-full h-full flex flex-col justify-end items-start'>
                       <div className="w-full p-2 flex flex-col gap-2 justify-start items-start">
                         <div className='p-2 text-sm opacity-70 rounded-lg flex text-center text-white bg-gray-500'>

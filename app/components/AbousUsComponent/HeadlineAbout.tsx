@@ -1,26 +1,25 @@
 
 import React from 'react'
-import { OurTeam } from './OurTeam'
-import Footer from '../Footer'
+import { OurTeam } from '../OurTeam'
 
 export const HeadlineAbout = () => {
   return (
     <>
       <div className=" w-full flex justify-center items-center flex-col ">
         <div className=' w-full lg:w-11/12  p-2'>
-          <div className=" w-full flex p-0 lg:p-2 h-52 lg:h-72">
+          <div className=" w-full flex p-0 lg:p-2 lg:h-96">
             <img src="/image/aboutus.png" className=' w-full h-full' alt="" />
           </div>
-          <div className='p-2 flex flex-col gap-2'>
+          <div className='p-2 flex flex-col lg:h-[30rem] justify-center items-center gap-2'>
             <div className="w-full flex flex-col gap-1">
-              <span className='text-indigo-900 text-2xl font-bold uppercase'>
+              <span className='text-indigo-900 text-4xl font-bold uppercase'>
                 ABOUT US NEXUS INSIGHT
               </span>
               <span className=' text-base text-indigo-900 font-light'>
                 Teknik Peliputan & Penulisan Naskah, Laksmi Rachmaria, Kelas Karyawan, PA
               </span>
             </div>
-            <span className=' text-base text-justify mt-2'>
+            <span className=' text-base text-justify mt-2 leading-8'>
               Selamat datang di Nexus Insight, sumber terpercaya untuk berita terkini seputar
               teknologdi, kesehatan, dan perjalanan. Kami hadir untuk menjembatani kebutuhan
               Anda akan informasi yang relevan dan mendalam.Di Nexus Insight, kami percaya bahwa
@@ -35,27 +34,9 @@ export const HeadlineAbout = () => {
           </div>
         </div>
         <OurTeam />
-        <div className="w-full p-2 mt-6 flex flex-col justify-center items-center bg-slate-200 ">
-          <div className='  lg:w-11/12 flex-col p-2 h-full lg:h-96 flex gap-5'>
-            <div className=' w-full lg:w-[95%] ms-1 flex flex-col gap-2'>
-              <p className=' text-lg text-indigo-900 font-bold'>
-                Our Team
-              </p>
-              <div className=' flex flex-row gap-1'>
-                <div className=' bg-orange-600 p-1 w-8'></div>
-                <div className=' w-full border-t-gray-500 border-b-gray-500 border-t border-b'></div>
-              </div>
-            </div>
-            <div className="w-full flex justify-center items-center h-full gap-5 flex-wrap">
-              <div className=' w-56 h-60 border border-red-500'></div>
-              <div className=' w-56 h-60 border border-red-500'></div>
-              <div className=' w-56 h-60 border border-red-500'></div>
-              <div className=' w-56 h-60 border border-red-500'></div>
-            </div>
-          </div>
-        </div>
+
       </div>
-      <Footer />
+
     </>
   )
 }

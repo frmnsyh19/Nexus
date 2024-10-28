@@ -2,7 +2,8 @@ import React from 'react'
 import NavbarPc from '../components/NavbarPc'
 import NavbarMobile from '../components/NavbarMobile'
 import { HeadlineAbout } from '../components/AbousUsComponent/HeadlineAbout'
-
+import PostAbout from '../components/PostAbout'
+import Footer from '../components/Footer'
 const page = () => {
   return (
     <>
@@ -10,6 +11,8 @@ const page = () => {
         <NavbarMobile />
         <NavbarPc />
         <HeadlineAbout />
+        <PostAbout />
+        <Footer />
       </div>
     </>
   )

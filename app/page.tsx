@@ -14,7 +14,7 @@ export default async function Home() {
 
   return (
     <>
-      <div className=" w-full flex flex-col">
+      <div className=" w-full bg-slate-100 text-neutral flex flex-col">
         <NavbarMobile />
         <NavbarPc />
         <HeaderOne />

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import React from 'react'
 import { FiUser } from 'react-icons/fi'
 export const NewsSections3 = () => {
@@ -28,7 +28,7 @@ export const NewsSections3 = () => {
             membiayai kuliahnya sendiri maka dari itu Yusriana sangat semangat untuk bisa berpartisipasi dalam PON edisi kali ini.
           </div>
           <div className=' mt-2 w-full p-3 flex justify-center h-80'>
-            <Image src={'/image/newstraveling2.png'} className=' w-2/3l' height={500} width={700} alt='headerImage' />
+            <img src="/image/newstraveling2.png" className='w-full h-full' alt="" />
           </div>
           <div className="w-full p-2 text-justify">
             Yustriana Apriliana yang biasa di panggil “BENGAL” sangat merasa bangga ketika ia

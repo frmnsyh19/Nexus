@@ -27,7 +27,7 @@ export const MiningStore = async () => {
           {/* 1 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start gap-2'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining1'>
+              <div className=' w-full h-36 flex flex-col justify-end items-center' id='mining1'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white'>NEWS</span>
                 </div>
@@ -50,7 +50,7 @@ export const MiningStore = async () => {
           {/* 2 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining2'>
+              <div className=' w-full h-36  flex flex-col justify-end items-center' id='mining2'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white'>CRYPTO</span>
                 </div>
@@ -73,7 +73,7 @@ export const MiningStore = async () => {
           {/* 3 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining3'>
+              <div className=' w-full h-36  flex flex-col justify-end items-center' id='mining3'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white'>ECONOMY</span>
                 </div>
@@ -96,7 +96,7 @@ export const MiningStore = async () => {
           {/* 4 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining4'>
+              <div className=' w-full h-36 flex flex-col justify-end items-center' id='mining4'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white'>BITCOIN</span>
                 </div>
