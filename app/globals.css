@@ -14,6 +14,10 @@
   }
 }
 
+html{
+  @apply scroll-smooth
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

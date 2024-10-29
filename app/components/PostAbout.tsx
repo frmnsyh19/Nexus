@@ -16,7 +16,7 @@ const PostAbout = () => {
             <span className=' text-sm text-white'>
               Hutan Kota GBK menjadi tempat healing alternatif ditengah kesibukan para Genz. Dibuat pada tahun 2018 dengan luas tanah 4,5 hektar,  Hutan Kota GBK menjadi ruang terbuka hijau di jakarta, pepohonan yang rindang beserta rumput hijau disekitar membuat udara segar di tengah kota, tempat ini biasa digunakan untuk bersantai bagi sebagian masyarakat terutama para Gen Z.
             </span>
-            <Link href='/travel'><div className=' p-2 w-28 text-sm rounded-xl bg-slate-50 cursor-pointer'>Read More</div></Link>
+            <Link href='/travel'><div className=' text-neutral p-2 w-28 text-sm rounded-xl bg-slate-50 cursor-pointer'>Read More</div></Link>
           </div>
         </div>
         <div className=' w-96  flex flex-col p-1'>
@@ -31,7 +31,7 @@ const PostAbout = () => {
               10 Oktober setiap tahunnya, kita semua memperingati Hari Kesehatan Mental Sedunia. Tujuannya adalah untuk mempromosikan kesehatan mental secara global, meningkatkan kesadaran masyarakat akan masalah kesehatan mental,
               dan bekerja untuk membantu orang-orang yang berjuang dengan masalah kesehatan mental.
             </span>
-            <Link href='/healthy'><div className=' cursor-pointer p-2 w-28 text-sm rounded-xl bg-slate-50'>Read More</div></Link>
+            <Link href='/healthy'><div className=' cursor-pointer text-neutral p-2 w-28 text-sm rounded-xl bg-slate-50'>Read More</div></Link>
           </div>
         </div>
         <div className=' w-96   flex flex-col p-1'>
@@ -45,7 +45,7 @@ const PostAbout = () => {
             <span className=' text-sm text-white'>
               AI adalah singkatan dari Artificial Intelligence atau dalam bahasa Indonesia disebut Kecerdasan Buatan. Sederhananya, AI adalah teknologi yang memungkinkan komputer atau mesin untuk meniru kemampuan kognitif manusia, seperti belajar, berpikir, mengambil keputusan, dan bahkan berkreasi.
             </span>
-            <Link href='/technology'><div className=' p-2 w-28 text-sm rounded-xl bg-slate-50'>Read More</div></Link>
+            <Link href='/technology'><div className=' text-neutral p-2 w-28 text-sm rounded-xl bg-slate-50'>Read More</div></Link>
           </div>
         </div>
       </div>

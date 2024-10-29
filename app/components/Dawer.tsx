@@ -22,7 +22,7 @@ const Dawer = () => {
           <li className="mt-5"><Link className=" text-base" href="/home">Home</Link></li>
           <li className="mt-5"><Link className=" text-base" href="/about">About</Link></li>
           <li className="mt-5"><Link className=" text-base" href="/travel">Travel</Link></li>
-          <li className="mt-5"><Link className=" text-base" href="/Healthy">Healthy</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/healthy">Healthy</Link></li>
           <li className="mt-5"><Link className=" text-base" href="/technology">Technology</Link></li>
         </ul>
       </div>
