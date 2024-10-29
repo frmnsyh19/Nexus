@@ -4,7 +4,7 @@ import { FiUser } from 'react-icons/fi'
 export const NewsSections3 = () => {
   return (
     <>
-      <div className='w-full flex justify-center items-center mt-20'>
+      <div className='w-full flex justify-center items-center mt-3 lg:mt-20'>
         <div className=" w-[90%] flex flex-col justify-center gap-2  items-center">
           <div className=' w-full lg:w-[60%] flex p-1 flex-col justify-center'>
             <span className='text-center text-xl lg:text-2xl font-bold'>

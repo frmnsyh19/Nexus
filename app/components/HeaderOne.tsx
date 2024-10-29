@@ -23,12 +23,12 @@ export const HeaderOne = () => {
           {/* 2 */}
           <div className=' w-full lg:w-[30rem] h-56 lg:h-60' id='bgheaderone-2'>
             <div className=' w-full h-full flex flex-col justify-end items-center p-2'>
-              <div className=' w-64 gap-4 flex flex-col justify-center items-center'>
+              <div className=' w-80 gap-4 flex flex-col justify-center items-center'>
                 <div className=' hover:bg-orange-600 btn btn-sm border-none font-light bg-orange-600 text-white uppercase'>
                   Bitcoin
                 </div>
                 <span className=' text-sm lg:text-base font text-white font-semibold uppercase text-center'>
-                  seberapa efektif workout dalam basket
+                  cara membentuk tubuh ideal dengan pola makan dan olahraga yang tepat
                 </span>
               </div>
             </div>

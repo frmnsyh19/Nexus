@@ -16,22 +16,22 @@ export const FasilitasGbk = () => {
             </span>
           </div>
           <div className=' w-full flex justify-center gap-3 items-center flex-col p-1'>
-            <div className="w-full flex justify-center gap-3 items-center p-2">
-              <div className=' w-5/12 lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
+            <div className="w-full lg:flex-row flex-col flex justify-center gap-3 items-center p-2">
+              <div className=' w-full lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
                 <Image width={200} src={'/image/gbk2.png'} className=' w-full' height={200} alt='' />
                 <div className=' badge text-white text-sm lg:text-base bg-rose-500 text-center border-none p-2'>Joging Track</div>
               </div>
-              <div className=' w-5/12 lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
+              <div className=' w-full lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
                 <Image width={200} src={'/image/gbk4.png'} className=' w-full' height={200} alt='' />
                 <div className=' badge text-white text-sm lg:text-base bg-rose-500 text-center border-none p-2'>Bangku Taman Gbk</div>
               </div>
-              <div className=' w-5/12 lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
+              <div className=' w-full lg:w-2/6  justify-center items-center gap-2 flex flex-col'>
                 <Image width={200} src={'/image/gbk3.png'} className=' w-full' height={200} alt='' />
                 <div className=' badge text-white text-sm lg:text-base bg-rose-500 text-center border-none p-2'>Mushola Dan Toilet</div>
               </div>
             </div>
             <div className="w-full flex flex-col lg:flex-row gap-1">
-              <div className=' w-full lg:w-3/6 border border-emerald-600'>
+              <div className=' w-full lg:w-3/6'>
                 <Image width={200} src={'/image/gbk1.png'} className=' w-full' height={200} alt='' />
               </div>
               <div className=' w-full  flex flex-col'>
