@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style.css'
+import Link from 'next/link'
 export const HeaderTechnology = () => {
   return (
     <>
@@ -8,9 +9,11 @@ export const HeaderTechnology = () => {
           <div className=' w-full h-full flex-col flex justify-between items-center'>
             <div className="w-full"></div>
             <div className="w-full p-3 justify-center items-center gap-3 flex flex-col">
-              <div className='p-2 text-sm text-white rounded-lg bg-rose-400'>
-                Read More
-              </div>
+              <Link href='#news1'>
+                <div className='p-2 text-sm text-white rounded-lg bg-rose-400'>
+                  Read More
+                </div>
+              </Link>
               <div className=' w-72 text-center'>
                 <span className=' text-base text-center text-white font-bold'>
                   UNGKAP TREN MASA DEPAN TEKNOLOGI KECERDASAN BUATAN (AI) DI INDONESIA
@@ -23,9 +26,11 @@ export const HeaderTechnology = () => {
           <div className=' w-full h-full flex-col flex justify-between items-center'>
             <div className="w-full"></div>
             <div className="w-full p-3 justify-center items-center gap-3 flex flex-col">
-              <div className='p-2 text-sm text-white rounded-lg bg-rose-400'>
-                Read More
-              </div>
+              <Link href='#news2'>
+                <div className='p-2 text-sm text-white rounded-lg bg-rose-400'>
+                  Read More
+                </div>
+              </Link>
               <div className=' w-72 text-center'>
                 <span className=' text-base text-center text-white font-bold'>
                   TEKNOLOGI CASHLESS DI INDONESIA DAN MASALAH YANG MUNCUL

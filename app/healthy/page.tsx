@@ -10,12 +10,14 @@ import { NewsHealthySections7 } from '../components/healthyComponent/NewsHealthy
 import { NewsHealthySections8 } from '../components/healthyComponent/NewsHealthySections8'
 import { NewsHealthySections6 } from '../components/healthyComponent/NewsHealthySections6'
 import Footer from '../components/Footer'
+import NavbarMobile from '../components/NavbarMobile'
 
 const page = () => {
   return (
     <>
-      <div className=' w-full flex flex-col gap-5 bg-slate-100 text-neutral'>
+      <div className=' w-full flex flex-col gap-2 lg:gap-5 bg-slate-100 text-neutral'>
         <NavbarPc />
+        <NavbarMobile />
         <HeadlineNews />
         <NewsHealthySections1 />
         <NewsHealthySections2 />

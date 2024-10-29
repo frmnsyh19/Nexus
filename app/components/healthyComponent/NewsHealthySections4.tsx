@@ -7,17 +7,19 @@ export const NewsHealthySections4 = () => {
     <>
       <div className="w-full flex justify-center mt-3 items-center">
         <div className=" w-full lg:w-[85%] flex flex-col p-2 gap-2">
-          <div className=' w-full flex-col flex justify-center items-center'>
-            <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
-              POLA HIDUP SEHAT DENGAN GYM
-            </span>
-            <div className="w-full flex gap-1 justify-center items-center p-1">
-              <FiUser className=' text-base text-gray-400' />
-              <span className=' text-gray-400 text-base capitalize'>
-                Riffadhil ilham anggara - 2371510708
+          <section id='gym'>
+            <div className=' w-full flex-col flex justify-center items-center'>
+              <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
+                POLA HIDUP SEHAT DENGAN GYM
               </span>
+              <div className="w-full flex gap-1 justify-center items-center p-1">
+                <FiUser className=' text-base text-gray-400' />
+                <span className=' text-gray-400 text-base capitalize'>
+                  Riffadhil ilham anggara - 2371510708
+                </span>
+              </div>
             </div>
-          </div>
+          </section>
           <span className=' text-justify leading-8'>
             Kesadaran masyarakat terhadap pentingnya pola hidup sehat semakin meningkat, dan berolahraga di
             ym menjadi salah satu tren yang kian populer. Banyak orang yang memanfaatkan gym sebagai sarana

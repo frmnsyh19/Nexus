@@ -7,17 +7,19 @@ export const NewsHealthySections3 = () => {
     <>
       <div className="w-full flex justify-center mt-3 items-center">
         <div className=" w-full lg:w-[85%] flex flex-col p-2 gap-2">
-          <div className=' w-full flex-col flex justify-center items-center'>
-            <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
-              CARA EFEKTIF MEMBENTUK TUBUH IDEAL DENGAN POLA MAKAN DAN OLAHRAGA YANG TEPAT
-            </span>
-            <div className="w-full flex gap-1 justify-center items-center p-1">
-              <FiUser className=' text-base text-gray-400' />
-              <span className=' text-gray-400 text-base capitalize'>
-                Ica Pratiwi Amran - 2371510963
+          <section id='polamakan'>
+            <div className=' w-full flex-col flex justify-center items-center'>
+              <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
+                CARA EFEKTIF MEMBENTUK TUBUH IDEAL DENGAN POLA MAKAN DAN OLAHRAGA YANG TEPAT
               </span>
+              <div className="w-full flex gap-1 justify-center items-center p-1">
+                <FiUser className=' text-base text-gray-400' />
+                <span className=' text-gray-400 text-base capitalize'>
+                  Ica Pratiwi Amran - 2371510963
+                </span>
+              </div>
             </div>
-          </div>
+          </section>
 
           <span className=' text-justify leading-8'>
             Menjaga pola makan dan berolahraga secara teratur adalah dua kunci penting untuk

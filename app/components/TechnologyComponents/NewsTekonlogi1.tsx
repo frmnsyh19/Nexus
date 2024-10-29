@@ -10,19 +10,23 @@ export const NewsTekonlogi1 = () => {
         <div className="w-full flex justify-center items-center">
           <div className=" w-full lg:w-[85%] flex flex-col p-1 gap-2">
             {/* title */}
-            <div className=' w-full p-4 flex flex-col'>
-              <div className=' w-full flex justify-center items-center p-1'>
-                <span className=' text-xl font-bold text-center uppercase'>
-                  UNGKAP TREND MASA DEPAN TEKNOLOGI KECERDASAN BERBASI AI DI INDONESIA
-                </span>
+            <section id='news1'>
+              <div className=' w-full p-4 flex flex-col'>
+                <div className=' w-full flex justify-center items-center p-1'>
+                  <div className=' w-full lg:w-3/5 text-wrap flex justify-center items-center'>
+                    <span className=' text-xl font-bold text-center uppercase'>
+                      UNGKAP TREND MASA DEPAN TEKNOLOGI KECERDASAN BERBASI AI DI INDONESIA
+                    </span>
+                  </div>
+                </div>
+                <div className="w-full flex justify-center items-center p-1">
+                  <FiUser className=' text-base text-gray-400' />
+                  <span className=' text-gray-400 text-base capitalize'>
+                    Faqih lukman - 2371510187
+                  </span>
+                </div>
               </div>
-              <div className="w-full flex justify-center items-center p-1">
-                <FiUser className=' text-base text-gray-400' />
-                <span className=' text-gray-400 text-base capitalize'>
-                  Faqih lukman - 2371510187
-                </span>
-              </div>
-            </div>
+            </section>
             {/* news */}
             <div className="w-full p-1 text-justify">
               <span className=' leading-8 text-justify'>

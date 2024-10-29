@@ -1,5 +1,5 @@
+import Link from "next/link"
 import { FiMenu } from "react-icons/fi"
-
 
 const Dawer = () => {
   return (
@@ -14,17 +14,16 @@ const Dawer = () => {
 
         <ul className="menu bg-slate-100  text-base-content min-h-full w-64 p-4">
           <div className=" w-full flex justify-start items-center h-16">
-            <div className="flex-1 p-2 justify-start flex">
-              <span className="text-2xl font-bold text-green-600">Life</span>
-              <span className=" text-2xl font-bold text-blue-600">Port</span>
+            <div className="flex-1 justify-start flex">
+              <img src="/team/logo.png" className=" w-28" alt="" />
             </div>
           </div>
           {/* Sidebar content here */}
-          <li className=""><a className=" text-base" href="#healhty">Healhty</a></li>
-          <li className="mt-5"><a className=" text-base" href="#food">Food</a></li>
-          <li className="mt-5"><a className=" text-base" href="#sport">Sport</a></li>
-          <li className="mt-5"><a className=" text-base" href="#fashion">Fashion</a></li>
-          <li className="mt-5"><a className=" text-base" href="#tecnology">Technology</a></li>
+          <li className="mt-5"><Link className=" text-base" href="/home">Home</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/about">About</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/travel">Travel</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/Healthy">Healthy</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/technology">Technology</Link></li>
         </ul>
       </div>
     </div>

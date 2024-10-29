@@ -9,13 +9,16 @@ const NewsTeknologi3 = () => {
         <div className="w-full flex justify-center items-center">
           <div className=" w-full lg:w-[85%] flex flex-col p-1 gap-2">
             {/* title */}
-            <div className=' w-full p-4 flex flex-col'>
-              <div className=' w-full flex justify-center items-center p-1'>
-                <span className=' text-xl font-bold text-center uppercase'>
-                  UNGKAP TREND MASA DEPAN TEKNOLOGI KECERDASAN BERBASI AI DI INDONESIA
-                </span>
+            <section id='news2'>
+              <div className=' w-full p-4 flex flex-col'>
+                <div className=' w-full flex justify-center items-center p-1'>
+                  <div className=' w-full lg:w-3/5 flex justify-center items-center'>
+                    <span className=' text-xl font-bold text-center uppercase'>
+                      UNGKAP TREND MASA DEPAN TEKNOLOGI KECERDASAN BERBASI AI DI INDONESIA
+                    </span></div>
+                </div>
               </div>
-            </div>
+            </section>
             <div className="w-full p-1 text-justify">
               <span className=' leading-8 text-justify'>
                 Selama ini kalian sadar tidak sih kalau semakin hari teknologi semakin berkembang sangat pesat. Terutama teknologi yang lagi berkembang pesat saat ini yaitu Ai!. AI adalah singkatan dari Artificial Intelligence atau dalam bahasa Indonesia disebut Kecerdasan Buatan. Sederhananya, AI adalah teknologi yang memungkinkan komputer atau mesin untuk meniru kemampuan kognitif manusia, seperti belajar, berpikir, mengambil keputusan, dan bahkan berkreasi. AI Dapat bekerja dengancara memproses berbagai macam data dengan jumlah yang sangat besar, Sehingga dari data tersebut di rancang untuk mendapatkan sebuah pola di dalamnya, dan kemudian AI menggunakan pola tersebut untuk membuat sebuah prediksi atau mengambil sebuah Tindakan, Dalam Proses ini sering sekali di sebut sebagai machine learning. Teknologi berbasi AI ini banyak sekali manfaatnya, hampir segala sesuatunya selalu berhubungan dengan AI. Contohnya seperti. Belajar, Bekerja, Analisis data, Komunikasi, Menjadi asisten virtual, membantu diagnostik medis, membantu otomatisasi proses bisnis, Semua selalu berhubungan dengan Ai karna pekerjaan yang sulitpun dalam sekejap bisa di selesaikan oleh AI.Bagi sebagian besar masyarakat Indonesia Khususnya  dikalangan Gen Z dan Milenial, Teknologi Ai seakan sudah menjadi ketergantungan berlebihan, tanpa mereka tau bisa kapan saja user terancam tersebarnya keamanan data privasi yang dapat merugikan berbagai macam pihak.  Bahkan sekarang banyak pekerjaan yang sudah  bisa di gantikan oleh kercerdasan berbasis Ai. Hal tersebut bisa menjadi sebuah ancaman  bagi manusia karna  dapat menimbulkan lonjakan angka pemutusan hubungan kerja (PHK)

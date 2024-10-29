@@ -6,8 +6,8 @@ export const NewsSections3 = () => {
     <>
       <div className='w-full flex justify-center items-center mt-20'>
         <div className=" w-[90%] flex flex-col justify-center gap-2  items-center">
-          <div className=' w-[60%] flex p-1 flex-col justify-center'>
-            <span className='text-center text-2xl font-bold'>
+          <div className=' w-full lg:w-[60%] flex p-1 flex-col justify-center'>
+            <span className='text-center text-xl lg:text-2xl font-bold'>
               YUSTRIANA APRILIANTI MAHASISWI UNIVERSITAS BUDI LUHUR, PERAIH MENDALI PON 2024
             </span>
             <div className="w-full flex justify-center gap-1 items-center p-1">
@@ -28,7 +28,7 @@ export const NewsSections3 = () => {
             membiayai kuliahnya sendiri maka dari itu Yusriana sangat semangat untuk bisa berpartisipasi dalam PON edisi kali ini.
           </div>
           <div className=' mt-2 w-full p-3 flex justify-center h-80'>
-            <img src="/image/newstraveling2.png" className='w-full h-full' alt="" />
+            <img src="/image/travelimg2.png" className=' w-full lg:w-[40rem] h-full' alt="" />
           </div>
           <div className="w-full p-2 text-justify">
             Yustriana Apriliana yang biasa di panggil “BENGAL” sangat merasa bangga ketika ia

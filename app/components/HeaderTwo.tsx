@@ -15,7 +15,7 @@ const HeaderTwo = () => {
             </div>
           </div>
           <div className=' w-full flex  lg:flex-row flex-col lg:gap-1 gap-2'>
-            <div className="w-full lg:w-[50%] border boder-red-600 h-44 lg:h-60 p-2" id='tranding1'>
+            <div className="w-full lg:w-[50%] h-44 lg:h-60 p-2" id='tranding1'>
               <div className=' w-full h-full flex flex-col justify-end items-start'>
                 <div className=" w-[75%] p-2 flex flex-col gap-2 justify-start items-start">
                   <div className='p-2 text-sm opacity-70 rounded-lg flex text-center text-white bg-gray-500'>
@@ -36,7 +36,7 @@ const HeaderTwo = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-[50%] border boder-red-600 h-44 lg:h-60 p-2" id='tranding2'>
+            <div className="w-full lg:w-[50%] h-44 lg:h-60 p-2" id='tranding2'>
               <div className=' w-full h-full flex flex-col justify-end items-start'>
                 <div className=" w-[75%] p-2 flex flex-col gap-2 justify-start items-start">
                   <div className='p-2 text-sm opacity-70 rounded-lg flex text-center text-white bg-gray-500'>
@@ -60,7 +60,7 @@ const HeaderTwo = () => {
           </div>
           <div className="w-full flex justify-center items-center gap-2 lg:flex-row flex-col">
             <div className="w-full lg:w-[45%] flex justify-start items-center flex-row gap-3">
-              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex border border-fuchsia-600' id='trandingpost1'>
+              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex ' id='trandingpost1'>
               </div>
               <div className=' w-full flex flex-col p-1'>
                 <div className=' bg-gray-500 w-20 p-1 rounded-md flex justify-center items-center'>
@@ -78,7 +78,7 @@ const HeaderTwo = () => {
               </div>
             </div>
             <div className="w-full lg:w-[45%] flex items-center flex-row gap-3">
-              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex border border-fuchsia-600' id='trandingpost2'>
+              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex' id='trandingpost2'>
               </div>
               <div className=' w-full flex flex-col p-1'>
                 <div className=' bg-gray-500 w-20 p-1 rounded-md flex justify-center items-center'>
@@ -96,7 +96,7 @@ const HeaderTwo = () => {
               </div>
             </div>
             <div className="w-full lg:w-[45%] flex items-center flex-row gap-3">
-              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex border border-fuchsia-600' id='trandingpost3'>
+              <div className=' w-32 lg:w-[12rem] h-24 lg:h-24 flex' id='trandingpost3'>
               </div>
               <div className=' w-full flex flex-col p-1'>
                 <div className=' bg-gray-500 w-20 p-1 rounded-md flex justify-center items-center'>

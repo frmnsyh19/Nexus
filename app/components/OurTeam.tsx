@@ -67,7 +67,7 @@ export const OurTeam = () => {
           </div>
           <div className="w-full flex justify-center items-center h-full gap-5 flex-wrap">
 
-            <div className=' w-56 h-72 border border-red-500' id='team5'>
+            <div className=' w-56 h-72' id='team5'>
               <div className=' w-full flex p-2 mt-12 h-full flex-col gap-1 justify-center items-start'>
                 <div className=' p-2 bg-rose-400 text-white'>
                   <p className=' text-xs'>Kemal Muhammad Fasya</p>
@@ -76,7 +76,7 @@ export const OurTeam = () => {
                   NIM : 2371510039</span>
               </div>
             </div>
-            <div className=' w-56 h-72 border border-red-500' id='team6'>
+            <div className=' w-56 h-72' id='team6'>
               <div className=' w-full flex p-2 h-full mt-12 flex-col gap-1 justify-center items-start'>
                 <div className=' p-2 bg-rose-400 text-white'>
                   <p className=' text-xs uppercase'>Riffadhil ilham anggara</p>
@@ -85,7 +85,7 @@ export const OurTeam = () => {
                   NIM : 2371510708</span>
               </div>
             </div>
-            <div className=' w-56 h-72 border border-red-500' id='team7'>
+            <div className=' w-56 h-72' id='team7'>
               <div className=' w-full flex p-2 h-full mt-12 flex-col gap-1 justify-center items-start'>
                 <div className=' p-2 bg-rose-400 text-white'>
                   <p className=' text-xs'>Ica Pratiwi Amran</p>
@@ -94,7 +94,7 @@ export const OurTeam = () => {
                   NIM : 2371510963</span>
               </div>
             </div>
-            <div className=' w-56 h-72 border border-red-500' id='team8'>
+            <div className=' w-56 h-72' id='team8'>
               <div className=' w-full flex p-2 h-full mt-12 flex-col gap-1 justify-center items-start'>
                 <div className=' p-2 bg-rose-400 text-white'>
                   <p className=' text-xs uppercase'>Aldi Yudha Pratama</p>

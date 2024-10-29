@@ -13,13 +13,13 @@ export const MiningStore = async () => {
   return (
     <>
       <div className="w-full flex flex-col lg:justify-start items-center justify-center gap-4 p-2">
-        <div className=' w-full lg:w-[95%] ms-1 flex flex-col gap-2'>
-          <p className=' text-lg text-indigo-900 font-bold'>
-            Mining Stories
+        <div className=' w-full flex flex-col justify-start gap-2'>
+          <p className=' text-lg text-indigo-900 capitalize font-bold'>
+            Mining Store
           </p>
-          <div className=' flex flex-row gap-1'>
+          <div className=' flex flex-row w-full gap-2'>
             <div className=' bg-orange-600 p-1 w-8'></div>
-            <div className=' w-full border-t-gray-500 border-b-gray-500 border-t border-b'></div>
+            <div className=' w-full border-t-2 border-b-2'></div>
           </div>
         </div>
         {/* container utama */}
@@ -119,7 +119,7 @@ export const MiningStore = async () => {
           {/* 5 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining5'>
+              <div className=' w-full h-36  flex flex-col justify-end items-center' id='mining5'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white uppercase'>Market</span>
                 </div>
@@ -142,7 +142,7 @@ export const MiningStore = async () => {
           {/* 6 */}
           <div className=' w-[47%] lg:w-[31%] flex-col flex  justify-start gap-2'>
             <div className=' w-full flex flex-col justify-start'>
-              <div className=' w-full h-36 border border-red-600 flex flex-col justify-end items-center' id='mining6'>
+              <div className=' w-full h-36  flex flex-col justify-end items-center' id='mining6'>
                 <div className=' badge p-3 bg-rose-400 relative top-2'>
                   <span className=' text-white uppercase'>News</span>
                 </div>

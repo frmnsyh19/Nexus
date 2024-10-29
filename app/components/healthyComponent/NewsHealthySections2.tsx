@@ -6,17 +6,19 @@ export const NewsHealthySections2 = () => {
     <>
       <div className="w-full flex justify-center mt-3 items-center">
         <div className=" w-full lg:w-[85%] flex flex-col p-2 gap-2">
-          <div className=' w-full flex-col flex justify-center items-center'>
-            <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
-              SEBERAPA EFEKTIF WORKOUT DALAM BASKET?
-            </span>
-            <div className="w-full flex gap-1 justify-center items-center p-1">
-              <FiUser className=' text-base text-gray-400' />
-              <span className=' text-gray-400 text-base capitalize'>
-                Sandy Syahadi - 2371510716
+          <section id='basket'>
+            <div className=' w-full flex-col flex justify-center items-center'>
+              <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
+                SEBERAPA EFEKTIF WORKOUT DALAM BASKET?
               </span>
+              <div className="w-full flex gap-1 justify-center items-center p-1">
+                <FiUser className=' text-base text-gray-400' />
+                <span className=' text-gray-400 text-base capitalize'>
+                  Sandy Syahadi - 2371510716
+                </span>
+              </div>
             </div>
-          </div>
+          </section>
           <span className=' text-justify leading-8'>
             Saat ini olahraga basket dan aktivitas di gym semakin diminati oleh masyarakat, terutama
             generasi muda yang ingin menjaga kesehatan dan kebugaran tubuh. Kombinasi antara  latihan
