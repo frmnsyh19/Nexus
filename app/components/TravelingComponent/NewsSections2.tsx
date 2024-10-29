@@ -5,7 +5,7 @@ const NewsSections2 = () => {
   return (
     <>
       <div className="w-full flex justify-center items-center mt-5 flex-col">
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center lg:p-0 p-1">
           <div className="w-[90%] flex flex-col p-1 gap-2">
             {/* title */}
             <div className=' w-full flex flex-col'>

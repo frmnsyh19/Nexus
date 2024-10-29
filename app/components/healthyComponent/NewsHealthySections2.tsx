@@ -5,7 +5,7 @@ export const NewsHealthySections2 = () => {
   return (
     <>
       <div className="w-full flex justify-center mt-3 items-center">
-        <div className=" w-full lg:w-[85%] flex flex-col p-2 gap-2">
+        <div className=" w-full lg:w-[85%] flex flex-col p-3 gap-2">
           <section id='basket'>
             <div className=' w-full flex-col flex justify-center items-center'>
               <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
@@ -27,7 +27,7 @@ export const NewsHealthySections2 = () => {
             gym membantu pemain  meningkatkan daya tahan otot, kekuatan tubuh bagian atas dan bawah, serta kemampuan  loncatan. Dengan latihan angkat beban dan kardio yang konsisten, pemain basket bisa  bermain lebih lama dan mengurangi risiko cedera. Menggabungkan latihan basket dengan latihan di gym menjadi tren di kalangan atlet,  terutama mereka yang ingin meningkatkan performa fisik dan daya tahan.
             Banyak pelatih  merekomendasikan kombinasi ini untuk membantu pemain basket lebih kuat dan gesit di  lapangan.
           </span>
-          <div className='w-full mt-5 flex-col gap-5  flex justify-center items-center'>
+          <div className='w-full mt-5 flex-col gap-5 p-1 flex justify-center items-center'>
             <div className='w-full lg:w-[80%] flex justify-center items-center'>
               <Image src='/healthy/newshealthy3.jpg' width={500} alt='header1' height={200} />
             </div>

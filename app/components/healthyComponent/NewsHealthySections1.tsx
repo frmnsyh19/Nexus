@@ -6,7 +6,7 @@ export const NewsHealthySections1 = () => {
   return (
     <>
       <div className="w-full flex justify-center mt-3 items-center">
-        <div className=" w-full lg:w-[85%] flex flex-col p-2 gap-2">
+        <div className=" w-full lg:w-[85%] flex flex-col p-3 gap-2">
           <section id='mental'>
             <div className=' w-full flex-col flex justify-center items-center'>
               <span className=' text-center text-2xl uppercase font-bold flex w-full justify-center'>
@@ -19,7 +19,7 @@ export const NewsHealthySections1 = () => {
               </div>
             </div>
           </section>
-          <div className="w-full flex justify-start">
+          <div className="w-full flex justify-start lg:p-0 p-1">
             <span className=' text-justify leading-8'>
               10 Oktober setiap tahunnya, kita semua memperingati Hari Kesehatan Mental Sedunia.
               Tujuannya adalah untuk mempromosikan kesehatan mental secara global, meningkatkan

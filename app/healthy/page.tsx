@@ -15,7 +15,7 @@ import NavbarMobile from '../components/NavbarMobile'
 const page = () => {
   return (
     <>
-      <div className=' w-full flex flex-col gap-2 lg:gap-5 bg-slate-100 text-neutral'>
+      <div className=' w-full flex flex-col lg:p-0 p-2 gap-2 lg:gap-5 bg-slate-100 text-neutral'>
         <NavbarPc />
         <NavbarMobile />
         <HeadlineNews />

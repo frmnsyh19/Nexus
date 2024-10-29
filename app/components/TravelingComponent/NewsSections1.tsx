@@ -9,7 +9,7 @@ const NewsSections1 = () => {
         <div className=" w-full lg:w-[80%] flex justify-center ">
           <Image src={'/image/headernews1.png'} className=' w-full' height={500} width={700} alt='headerImage' />
         </div>
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center lg:p-0 p-1">
           <div className=" w-full lg:w-[90%] flex flex-col p-1 gap-2">
             {/* title */}
             <div className=' w-full p-4 flex flex-col'>

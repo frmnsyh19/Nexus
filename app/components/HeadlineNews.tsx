@@ -36,7 +36,7 @@ export const HeadlineNews = () => {
           </div>
         </div>
         {/* 4 */}
-        <div className=' w-full lg:w-[30rem] border border-red-700 h-56 lg:h-60' id='bgheaderhealthy4'>
+        <div className=' w-full lg:w-[30rem]  h-56 lg:h-60' id='bgheaderhealthy4'>
           <div className=' w-full h-full flex flex-col justify-end items-center p-2'>
             <div className=' w-80 gap-4 flex flex-col justify-center items-center'>
               <Link href='#mental'>
@@ -51,7 +51,7 @@ export const HeadlineNews = () => {
           </div>
         </div>
         {/* 5 */}
-        <div className=' w-full lg:w-[30rem] border border-red-700 h-56 lg:h-60' id='bgheaderhealthy5'>
+        <div className=' w-full lg:w-[30rem]  h-56 lg:h-60' id='bgheaderhealthy5'>
           <div className=' w-full h-full flex flex-col justify-end items-center p-2'>
             <div className=' w-80 gap-4 flex flex-col justify-center items-center'>
               <Link href='#gym'>

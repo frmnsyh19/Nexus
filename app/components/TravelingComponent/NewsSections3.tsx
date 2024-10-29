@@ -5,7 +5,7 @@ export const NewsSections3 = () => {
   return (
     <>
       <div className='w-full flex justify-center items-center mt-3 lg:mt-20'>
-        <div className=" w-[90%] flex flex-col justify-center gap-2  items-center">
+        <div className=" w-[90%] flex flex-col justify-center gap-2  items-center lg:p-0 p-1">
           <div className=' w-full lg:w-[60%] flex p-1 flex-col justify-center'>
             <span className='text-center text-xl lg:text-2xl font-bold'>
               YUSTRIANA APRILIANTI MAHASISWI UNIVERSITAS BUDI LUHUR, PERAIH MENDALI PON 2024
@@ -17,7 +17,7 @@ export const NewsSections3 = () => {
               </span>
             </div>
           </div>
-          <div className="w-full p-2 text-justify">
+          <div className="w-full p-1 text-justify">
             Yustirani Aprilianti, seorang mahasiswi Universitas Budi Luhur, telah mencatatkan
             prestasi yang gemilang sebagai peraih mendali emas dan perunggu di Pekan Olahraga Nasional (PON)
             2024. Dalam wawancara ini, Yustriani Aprilianti membagikan pengamalan pertama dia selama
