@@ -4,13 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { FiMenu } from "react-icons/fi";
 
-interface DrawerProps {
-  isScrolled: boolean;
-}
-
-const Dawer: React.FC<DrawerProps> = ({
-  isScrolled,
-}) => {
+const Dawer = () => {
   return (
     <div className="drawer lg:hidden block z-50">
       <input

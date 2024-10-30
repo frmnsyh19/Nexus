@@ -41,7 +41,7 @@ const NavbarMobile = () => {
           : "bg-transparent"
       }`}>
         <div className=" flex">
-          <Dawer isScrolled={isScrolled} />
+          <Dawer />
         </div>
 
         {isScrolled ? (
