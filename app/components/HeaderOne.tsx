@@ -9,10 +9,10 @@ export const HeaderOne = () => {
   return (
     <>
       <div className="w-full flex flex-col justify-start gap-2">
-        <div className=" w-full flex flex-col lg:flex-row justify-evenly lg:gap-2 gap-1 items-center lg:p-3">
+        <div className=" w-full flex flex-col lg:flex-row justify-center lg:gap-0 gap-1 items-center lg:p-3">
           {/* 1 */}
           <div
-            className=" w-full lg:w-[30rem] h-56 lg:h-60"
+            className=" w-full lg:w-1/2 h-56 lg:h-60"
             id="bgheaderone-1">
             <div className=" w-full h-full flex flex-col justify-end items-center p-2">
               <div className=" w-64  gap-4 flex flex-col justify-center items-center">
@@ -28,7 +28,7 @@ export const HeaderOne = () => {
           </div>
           {/* 2 */}
           <div
-            className=" w-full lg:w-[30rem] h-56 lg:h-60"
+            className=" w-full lg:w-1/2 h-56 lg:h-60"
             id="bgheaderone-2">
             <div className=" w-full h-full flex flex-col justify-end items-center p-2">
               <div className=" w-80 gap-4 flex flex-col justify-center items-center">
@@ -40,19 +40,6 @@ export const HeaderOne = () => {
                   dengan pola makan dan olahraga
                   yang tepat
                 </span>
-              </div>
-            </div>
-          </div>
-          {/* 3 */}
-          <div
-            className=" w-full lg:w-[30rem] h-56 lg:h-60"
-            id="bgheaderone-3">
-            <div className=" w-full h-full flex flex-col justify-end items-center p-2">
-              <div className=" w-80 gap-4 flex flex-col justify-center items-center">
-                <div className=" hover:bg-orange-600 btn btn-sm border-none font-light bg-orange-600 text-white uppercase">
-                  News
-                </div>
-                <span className=" font-semibold text-base text-white font-sem uppercase text-center"></span>
               </div>
             </div>
           </div>
