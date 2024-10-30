@@ -47,7 +47,7 @@ const NavbarMobile = () => {
           <div className="p-2">
             <img
               src="/team/logo.png"
-              className="  w-16"
+              className=" w-12"
               alt=""
             />
           </div>
