@@ -43,17 +43,6 @@ const NavbarMobile = () => {
         <div className=" flex">
           <Dawer />
         </div>
-
-        {isScrolled ? (
-          <>
-            <div className="p-1">
-              <p>oekokeokeoekeok</p>
-            </div>
-          </>
-        ) : (
-          ""
-        )}
-
         <div className=" p-2">
           <div className="p-2">
             <img
