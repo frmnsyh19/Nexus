@@ -44,9 +44,9 @@ export const HeaderOne = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full flex lg:p-0 p-1 justify-center items-center">
+        <div className=" mt-4 w-full flex lg:p-0 p-1 justify-center items-center">
           <div className=" w-full lg:w-[88%] flex flex-row  h-28">
-            <div className=" w-3/5 lg:w-1/2 h-full bg-slate-200 flex justify-between items-center p-1 lg:p-4">
+            <div className=" w-3/5 lg:w-1/2 h-full bg-slate-300 flex justify-between items-center p-1 lg:p-4">
               <span className=" text-indigo-800 font-bold text-sm lg:text-2xl">
                 Modern Technology Fast Here
               </span>

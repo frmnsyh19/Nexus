@@ -23,7 +23,7 @@ export const NewsTekonlogi1 = () => {
                 <div className="w-full flex gap-1 justify-center items-center p-1">
                   <FiUser className=" text-base text-gray-400" />
                   <span className=" text-gray-400 text-base capitalize">
-                    aldy yudha pratama -
+                    aldi yudha pratama -
                     2371510781
                   </span>
                 </div>
@@ -102,7 +102,7 @@ export const NewsTekonlogi1 = () => {
             </div>
             <div className=" w-full justify-center items-center p-1 gap-4 flex flex-col">
               <span className=" leading-8 text-justify">
-                {`  Dan inilah kutipan wawancara saya. Pada Hari Jumat, 18 Oktober 2024, Tepatnya pada pukul 10.00 pagi. Saya datang ke salah satu perusahaan tempat bekerja narasumber saya. Kesan pertama yang saya dapatkan pada saat saya datang ke kantornya adalah begitu nyaman dengan suasanya lingkup kerja yang sangat tenang. Saya langsung bertemu dengan yusril dan meminta izin untuk mewawancarainya. Ia bersifat rama dan humble dengan saya.`}
+                {`Dan inilah kutipan wawancara saya. Pada Hari Jumat, 18 Oktober 2024, Tepatnya pada pukul 10.00 pagi. Saya datang ke salah satu perusahaan tempat bekerja narasumber saya. Kesan pertama yang saya dapatkan pada saat saya datang ke kantornya adalah begitu nyaman dengan suasanya lingkup kerja yang sangat tenang. Saya langsung bertemu dengan yusril dan meminta izin untuk mewawancarainya. Ia bersifat rama dan humble dengan saya.`}
               </span>
               <span className="leading-8 text-justify">
                 {`Yusril adalah seorang tech reviewer disalah satu media platform youtube (PemmzChannel). Kecintaanya kepada teknologi membuat ia menjadi semakin aktif mencari tau tentang perkembangan teknologi terbaru yang saat ini sedang di kembangankan (Ai). Nama lengkapnya adalah Yusril  bertempat tinggal di Indramayu. Lulusan dari Universitas Telkom Indonesia  dengan gelar di bidang elektro . Ketertarikanya dalam dunia teknologi sudah lama muncul sejak tahun 2000An Di umur 3 – 4  tahun yang di mana ayahnya yusril sudah mempunyai computer dengan spesifikasi  Pentium 2. Ahkirnya pada saat itu yusril sering sekali bermain game pc. Sampai pada ahkirnya yusril memutuskan untuk terjun di dunia teknologi  Terutama setelah melihat teknologi dapat membuat hidup lebih praktis dan efisien. Dengan kegigihan dan minat yang kuat, yusril kemudian memilih jalur karir sebagai tech reviewer dan kebetulan saya adalah salah satu teman kantornya.`}

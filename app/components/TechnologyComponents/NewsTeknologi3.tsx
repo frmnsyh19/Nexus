@@ -1,4 +1,5 @@
 import React from "react";
+import { FiUser } from "react-icons/fi";
 
 const NewsTeknologi3 = () => {
   return (
@@ -17,6 +18,13 @@ const NewsTeknologi3 = () => {
                       MUNCUL
                     </span>
                   </div>
+                </div>
+                <div className="w-full flex gap-1 justify-center items-center p-1">
+                  <FiUser className=" text-base text-gray-400" />
+                  <span className=" text-gray-400 text-base capitalize">
+                    EKI ELANGMANDA PUTRA -
+                    2371510849
+                  </span>
                 </div>
               </div>
             </section>
@@ -79,11 +87,11 @@ const NewsTeknologi3 = () => {
                 mengenai cara menggunakan metode
                 pembayaran baru ini
               </span>
-              <div className=" w-full flex p-2 justify-center items-center h-96">
+              <div className=" w-full flex p-2 justify-center items-center lg:h-96">
                 <div className=" w-full lg:w-2/3 flex justify-center items-center p-1">
                   <img
                     src="/teknologi/last.png"
-                    className=" w-full h-96"
+                    className=" w-full h-full lg:h-96"
                     alt=""
                   />
                 </div>
